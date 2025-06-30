@@ -69,7 +69,7 @@ Bitcoin-Hub addresses the **accessibility barrier** for new Bitcoin users and as
 
 ---
 
-## 📚 What We Learned
+## What We Learned
 
 - Deep understanding of zkEVM and how Citrea brings Bitcoin programmability to life.
 - Network debugging with custom chains in MetaMask.
@@ -182,9 +182,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 > *Bitcoin-Hub is more than a dApp — it’s a social, educational, and financial entry point into the future of programmable Bitcoin.*
 
-```
-
----
-
-Let me know if you'd like this exported as a `README.md` file or tailored for a GitHub Pages presentation as well.
 ```
