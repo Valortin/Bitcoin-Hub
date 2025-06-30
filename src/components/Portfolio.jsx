@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import { ethers } from "ethers";
 import { getPortfolioData } from "../utils/citrea";
 
 function Portfolio({ walletAddress }) {

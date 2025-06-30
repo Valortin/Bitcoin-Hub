@@ -8,19 +8,14 @@ export async function connectWallet() {
       const signer = await provider.getSigner();
       const address = await signer.getAddress();
 
-      // Add Citrea Testnet to MetaMask
       await window.ethereum.request({
         method: "wallet_addEthereumChain",
         params: [
           {
-            chainId: "0x13FB", // Chain ID: 5115
+            chainId: "0x13FB",
             chainName: "Citrea Testnet",
             rpcUrls: ["https://rpc.testnet.citrea.xyz"],
-            nativeCurrency: {
-              name: "cBTC",
-              symbol: "cBTC",
-              decimals: 18,
-            },
+            nativeCurrency: { name: "cBTC", symbol: "cBTC", decimals: 18 },
             blockExplorerUrls: ["https://explorer.testnet.citrea.xyz"],
           },
         ],
