@@ -1,18 +1,7 @@
-Here's your full **README.md** formatted for the **Bitcoin-Hub** project, suitable for GitHub and submission to the Citrea WaveHack:
-
----
-
-````markdown
 # Bitcoin-Hub
 
-![Bitcoin-Hub Logo](https://via.placeholder.com/150?text=Bitcoin-Hub+Logo)  
 *A community-driven platform to follow top Bitcoin traders, copy their strategies, and stack sats together, built on Citrea’s zkEVM.*
 
-**Last Updated:** 04:15 PM WAT, Sunday, June 29, 2025  
-**Developed by:** [Your Name/Team Name]  
-**WaveHack Submission:** Citrea WaveHack - Wave 1  
-
----
 
 ## 🌀 What is Bitcoin-Hub?
 
@@ -94,7 +83,7 @@ Bitcoin-Hub addresses the **accessibility barrier** for new Bitcoin users and as
 
 ```bash
 # Clone the repo
-git clone https://github.com/your-username/bitcoin-hub.git
+git clone https://github.com/valortin/bitcoin-hub.git
 cd bitcoin-hub
 
 # Install dependencies
